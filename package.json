@@ -1,0 +1,31 @@
+{
+  "name": "moringa-core-assignments",
+  "version": "1.0.0",
+  "description": "Herein are two assignments SA1(ping pong!) and SA2(Menu Restuarant)",
+  "main": "app.js",
+  "scripts": {
+    "test": "node console.info(`Lets do this project`);"
+  },
+  "dependencies": {
+    "ejs": "*",
+    "express": "^4.16.2",
+    "path": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DaggieBlanqx"
+  },
+  "keywords": [
+    "Moringa",
+    "School",
+    "Moringa",
+    "Core",
+    "Assignments",
+    "Ping",
+    "Pong",
+    "Daggie",
+    "Blanqx"
+  ],
+  "author": "Daggie Blanqx",
+  "license": "UNLICENSED"
+}

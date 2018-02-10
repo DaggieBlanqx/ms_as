@@ -1,0 +1,227 @@
+:root{
+--mypurple : #9c27b0;
+--mypink : #f700c2;
+
+--mybrown : #f5dfb3;
+--mygreen : #8fbc8e;
+--mygrey :#e6e6e6; 
+--speed:1000ms; 
+}
+
+
+html,body{
+	background-color: var(--mygrey);
+	height: 100%;
+	width: 100%;
+	padding:0;
+	margin: 0;
+}
+
+
+
+.projectLaunchA{
+	background: var(--mybrown);
+	position: absolute;
+	left: 0;
+	height: 100%;
+	width: 50vw;
+
+}
+
+.projectLaunchB{
+	background: #F15A29;
+	position: absolute;
+	left: 50%;
+	height: 100%;
+	width: 50vw;
+
+}
+
+.projectLaunchA>button{
+	position: fixed;
+	top: 50%;
+	left: 20.5vw;
+
+}
+.projectLaunchB>button{
+	position: fixed;
+	top: 50%;
+	right: 20.5vw;
+
+}
+
+.projectLaunchFooter{
+	position: fixed;
+	bottom: 0;
+	height: 10vh;
+	width: 100%;
+	background-color: #c114ec;
+	color: #fff;
+	padding-top: 3vh;
+	text-align: center;
+}
+
+
+
+
+.myHeader{
+	position: relative;
+	top: 0vh;
+	z-index: 99999;
+	height: 20%;
+	background-color: var(--mybrown);
+	text-align: center;
+}
+
+.myHeader>.myTitle{
+	font-weight: bold;
+	font-variant: small-caps;
+	font-size: 11vh;
+	font-family: cursive;
+
+}
+
+
+button{
+
+	transition: var(--speed);
+	font-family: cursive;
+	height: 8vh;
+	padding: 2vh;
+	text-align: center;
+	background: var(--mygrey);
+	border-radius: 1vh 1vh;
+	border: solid black 1px;
+}
+
+button:hover{
+
+	transition: var(--speed);
+	background-color: var(--mybrown);
+	height: 6vh;
+	padding: 0.2vh;
+	border-radius: 3vh 3vh;
+}
+
+input{	
+	transition: var(--speed);
+	height: 6vh;
+	text-align: center;
+	font-size: 4vh;
+	background-color: white;
+	color: black;
+}
+
+input:hover{	
+	transition: var(--speed);
+	height: 7vh;
+	background-color: black;
+	color: white;
+}
+
+.myMain{
+	height: 100%;
+	background-color: var(--mygrey);
+	width: 70%;
+	position: absolute;
+	left: 21%;
+	padding: 2%;
+
+}
+
+.mySideTab{
+	height: 100%;
+	background-color: var(--mygreen);
+	width: 20%;
+	position: absolute;
+	left: 0;
+	top: 30vh;
+	padding: 1%;
+
+} 
+
+.myBrownFonts{
+	color: var(--mybrown);
+}
+
+a{
+	color: black;
+	text-decoration: none;
+}
+
+
+
+
+.holder{
+	height: 100vh;
+	width: auto;
+	background: transparent;
+
+}
+.partA{
+	height: 50vh;
+	width: auto;
+	background: black;
+	text-align: center;
+	color: white;
+}
+.partA>input{
+	display: flex;
+	position: relative;
+	top: 20vh;
+	left: 12.5%;
+	width: 75%;
+	height: 5vh;
+	font-size: 4vh;
+	text-align: center;
+}
+.partA>p{
+	display: flex;
+	position: relative;
+	top: 21vh;
+	left: 35%;
+	padding-bottom: 0;
+	font-size: 4vh;
+	text-align: center;
+}
+
+
+.partB{
+	min-height: 50vh;
+	width: auto;
+	background: purple;
+	padding-bottom: 5vh;
+}
+
+resultArea{
+	text-align: center;
+}
+resultArea > p{
+	display: flex;
+	position: relative;
+	top: 3vh;
+	font-size: 4vh;
+	left: 35%;
+	color: white;
+	text-align: center;
+}
+.myBtn{
+	transition: var(--speed);
+	font-family: cursive;
+	height: 5vh;
+	position: absolute;
+	top: 5vh;
+	text-align: center;
+	background: var(--mypink);
+	border-radius: 1vh 1vh;
+	border: solid black 1px;	
+}
+.myBtn:hover{
+
+	transition: var(--speed);
+	background-color: var(--mypurple);
+	height: 6vh;
+	padding-left: 0.9vh;
+	padding-right: 0.9vh;
+	border-radius: 3vh 3vh;
+}
